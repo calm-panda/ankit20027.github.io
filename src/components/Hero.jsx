@@ -15,8 +15,8 @@ const Hero = () => {
     console.log(userData);
     return (
         <div className='w-full p-24 flex flex-col items-center text-sm'>
-            <img src={userData.avatar_url} alt='My Image' className='w-32 aspect-square rounded-full' />
-            <div className='my-5'>Hi, I&apos;m {userData.name.split(" ")[0]}. 👋🏽</div>
+            <img src={userData?.avatar_url} alt='My Image' className='w-32 aspect-square rounded-full' />
+            <div className='my-5'>Hi, I&apos;m {userData?.name.split(" ")[0]}. 👋🏽</div>
             <div className='text-5xl text-center py-3'>
                 <div className='text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600'> 
                     Talk is cheap 
