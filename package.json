@@ -1,8 +1,8 @@
 {
-  "homepage": "https://ankit20027.github.io/",
+  "homepage": "https://calm-panda.github.io/",
   "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
