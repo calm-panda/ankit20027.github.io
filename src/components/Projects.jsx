@@ -16,9 +16,14 @@ const Projects = () => {
         repoData ? <div>
             {
                 repoData.map((val, idx) =>
-                    !val.archived &&
                     <div key={idx} className="relative pb-12 px-32 z-0">
-                        <div className="px-24 font-semibold text-2xl"> {val.name} </div>
+                        <div className="px-24 font-semibold text-2xl flex flex-row items-baseline gap-4"> 
+                            {val.name} 
+                            {val.archived &&
+                                <span className="text-zinc-600 text-sm ">
+                                    archived
+                                </span>}
+                        </div>
                         <div className="relative flex flex-row items-center">
                             <div className="flex-grow basis-8/12 border-t border-zinc-600"></div>
                             <a target="_blank" rel="noopener noreferrer" href={val.html_url}>
