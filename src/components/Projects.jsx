@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-const repoUrl = `https://api.github.com/users/ankit20027/repos`;
+const repoUrl = `https://api.github.com/users/calm-panda/repos`;
 
 const Projects = () => {
     const [repoData, setRepoData] = useState(null);

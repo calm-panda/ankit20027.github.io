@@ -11,9 +11,9 @@ const Navbar = () => {
         </div>
       </a>
       <div className='flex items-center [&>div]:w-fit [&>div]:ml-4 [&>div]:cursor-pointer'>
-        <div><a className="hover:text-zinc-200" target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/ankit-20027">Linkedin /</a></div>
-        <div><a className="hover:text-zinc-200" target="_blank" rel="noopener noreferrer" href="https://github.com/ankit20027">Github /</a></div>
-        <div><a className="hover:text-zinc-200" target="_blank" rel="noopener noreferrer" href="mailto:ankit20027@iiitd.ac.in">Gmail</a></div>
+        <div><a className="hover:text-zinc-200" target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/calm-panda">Linkedin /</a></div>
+        <div><a className="hover:text-zinc-200" target="_blank" rel="noopener noreferrer" href="https://github.com/calm-panda">Github /</a></div>
+        <div><a className="hover:text-zinc-200" target="_blank" rel="noopener noreferrer" href="mailto:ankitc1422@gmail.com">Gmail</a></div>
       </div>
     </div>
   )
